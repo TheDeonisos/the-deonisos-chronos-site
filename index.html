@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>THE DEONISOS — Chronos // Cyberhellenic</title>
+  <meta name="description" content="Grotesque Chronos x Cyberpunk — THE DEONISOS music project." />
+  <link rel="icon" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Orbitron:wght@400..900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="scanFX"></canvas>
+  <div id="bg-slideshow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="THE DEONISOS" />
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Main">
+      <button class="tab" data-tab="project" role="tab" aria-controls="project">PROJECT</button>
+      <button class="tab" data-tab="philosophy" role="tab" aria-controls="philosophy">PHILOSOPHY</button>
+      <button class="tab" data-tab="journey" role="tab" aria-controls="journey">YOUR JOURNEY</button>
+      <button class="tab" data-tab="downloads" role="tab" aria-controls="downloads">DOWNLOADS</button>
+      <button class="tab" data-tab="donations" role="tab" aria-controls="donations">DONATIONS</button>
+      <a class="admin-link" href="#/admin" title="Admin">ADMIN</a>
+    </nav>
+  </header>
+
+  <main id="cascade-container">
+    <!-- Panels injected here -->
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> THE DEONISOS • Chronos // Cyberhellenic • Built for Денчик</small>
+  </footer>
+
+  <script src="lib/idb-keyval.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
