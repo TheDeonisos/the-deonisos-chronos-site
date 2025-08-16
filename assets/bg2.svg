@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b0b10"/>
+      <stop offset="100%" stop-color="#1a0f1a"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,0,128,0)"/>
+      <stop offset="50%" stop-color="rgba(255,0,128,0.25)"/>
+      <stop offset="100%" stop-color="rgba(255,0,128,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g2)"/>
+  <!-- Kronos silhouette hint -->
+  <g fill="none" stroke="#ff00cc" stroke-opacity="0.25">
+    <path d="M800,150 C700,220 650,320 620,420 600,480 600,560 660,640 720,720 820,760 920,740 1020,720 1100,650 1120,560 1140,470 1100,380 1000,320 900,260 900,220 920,160" stroke-width="18"/>
+    <path d="M760,180 l0,560" stroke-width="8" stroke-dasharray="12 12"/>
+  </g>
+  <!-- scanlines -->
+  <g>
+    <rect x="0" y="0" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="60" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="120" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="180" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="240" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="300" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="360" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="420" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="480" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="540" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="600" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="660" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="720" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="780" width="1600" height="6" fill="url(#scan)"/>
+    <rect x="0" y="840" width="1600" height="6" fill="url(#scan)"/>
+  </g>
+</svg>
